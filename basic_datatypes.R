@@ -16,3 +16,11 @@ print(class(apple))
 mylist <- list(c(1,2,3),2.3,"hello")
 print(mylist)
 print(class(mylist))
+
+# Matrices
+# A matrix is a two-dimensional rectangular data set. 
+# It can be created using a vector input to the matrix function.
+
+# create a matrix
+M = matrix( c('a','a','b','c','b','a'), nrow = 3, ncol = 2, byrow = TRUE)
+print(M)
