@@ -24,3 +24,9 @@ print(class(mylist))
 # create a matrix
 M = matrix( c('a','a','b','c','b','a'), nrow = 3, ncol = 2, byrow = TRUE)
 print(M)
+
+# Arrays
+
+# Factors
+
+# Dataframes
