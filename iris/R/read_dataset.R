@@ -63,3 +63,5 @@ plot(y)
 # multivariate plots
 # scatterplot matrix
 featurePlot(x=x, y=y, plot = "ellipse")
+
+featurePlot(x=x, y=y, plot="box")
