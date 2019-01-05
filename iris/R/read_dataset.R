@@ -59,3 +59,7 @@ par(mfrow=c(1,4))
 
 # barplot for class breakdown
 plot(y)
+
+# multivariate plots
+# scatterplot matrix
+featurePlot(x=x, y=y, plot = "ellipse")
