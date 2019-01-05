@@ -71,3 +71,12 @@ featurePlot(x=x, y=y, plot="box")
 # density plots for each attribute by class value
 scales <- list(x=list(relation="free"), y=list(relation="free"))
 featurePlot(x=x, y=y, plot="density", scales=scales)
+
+
+#####
+# TEST HARNESS
+####
+
+# Run algorithms using 10-fold cross validation
+control <- trainControl(method="cv", number=10)
+metric <- "Accuracy"
