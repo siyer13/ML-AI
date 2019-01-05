@@ -65,3 +65,9 @@ plot(y)
 featurePlot(x=x, y=y, plot = "ellipse")
 
 featurePlot(x=x, y=y, plot="box")
+
+
+
+# density plots for each attribute by class value
+scales <- list(x=list(relation="free"), y=list(relation="free"))
+featurePlot(x=x, y=y, plot="density", scales=scales)
